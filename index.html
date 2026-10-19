@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inovex | CAD Portfolio Templates & Engineering Presentation Kits</title>
+<meta name="description" content="Create professional engineering and architectural portfolios with Inovex CAD presentation templates. Explore editable portfolio layouts, technical drawing sheets and presentation kits."/>
+<meta name="keywords" content="CAD portfolio templates, engineering portfolio, architectural portfolio, CAD presentation templates, technical drawing templates, AutoCAD portfolio, engineering presentation kit"/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<link rel="canonical" href="https://inovexengineers.github.io/Inovex-Website/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Inovex"/>
+<meta property="og:title" content="Inovex | CAD Portfolio Templates & Engineering Presentation Kits"/>
+<meta property="og:description" content="Create professional engineering and architectural portfolios with Inovex CAD presentation templates. Explore editable portfolio layouts, technical drawing sheets and presentation kits."/>
+<meta property="og:url" content="https://inovexengineers.github.io/Inovex-Website/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Inovex | CAD Portfolio Templates & Engineering Presentation Kits"/>
+<meta name="twitter:description" content="Create professional engineering and architectural portfolios with Inovex CAD presentation templates. Explore editable portfolio layouts, technical drawing sheets and presentation kits."/>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-background": "#071c36",
+            "tertiary": "#005e90",
+            "on-secondary-container": "#571a00",
+            "background": "#f9f9ff",
+            "on-primary-fixed-variant": "#003fa4",
+            "on-tertiary": "#ffffff",
+            "surface-card": "#ffffff",
+            "inverse-primary": "#b3c5ff",
+            "inverse-surface": "#1f314d",
+            "primary-fixed": "#dae1ff",
+            "ink-secondary": "#1e293b",
+            "on-tertiary-fixed-variant": "#004b73",
+            "on-tertiary-fixed": "#001d31",
+            "error": "#ba1a1a",
+            "secondary": "#a73a00",
+            "outline-variant": "#c2c6d8",
+            "surface-variant": "#d6e3ff",
+            "error-container": "#ffdad6",
+            "ink-primary": "#0b1f3a",
+            "surface-bright": "#f9f9ff",
+            "badge-cyan-tint": "#e0f2fe",
+            "ink-muted": "#334155",
+            "secondary-container": "#fd651e",
+            "outline": "#727687",
+            "surface-container-high": "#dee8ff",
+            "surface-container-low": "#f0f3ff",
+            "gridline": "#e2e8f0",
+            "on-error": "#ffffff",
+            "surface-dim": "#c8dbfe",
+            "surface-container-lowest": "#ffffff",
+            "hairline": "#cbd5e1",
+            "primary": "#0050cb",
+            "on-tertiary-container": "#f5f8ff",
+            "inverse-on-surface": "#ecf1ff",
+            "on-primary-container": "#f8f7ff",
+            "on-primary": "#ffffff",
+            "primary-fixed-dim": "#b3c5ff",
+            "tertiary-container": "#0078b6",
+            "on-surface-variant": "#424656",
+            "accent-orange-bright": "#f95738",
+            "primary-container": "#0066ff",
+            "badge-cyan-text": "#0369a1",
+            "surface-container": "#e7eeff",
+            "drafting-paper": "#f8fafc",
+            "secondary-fixed-dim": "#ffb599",
+            "on-secondary-fixed-variant": "#7f2b00",
+            "surface": "#f9f9ff",
+            "on-primary-fixed": "#001849",
+            "on-error-container": "#93000a",
+            "secondary-fixed": "#ffdbce",
+            "on-secondary": "#ffffff",
+            "on-surface": "#071c36",
+            "on-secondary-fixed": "#370e00",
+            "surface-container-highest": "#d6e3ff",
+            "tertiary-fixed-dim": "#93ccff",
+            "tertiary-fixed": "#cce5ff",
+            "surface-tint": "#0054d6"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-mobile": "1.25rem",
+            "space-xs": "0.25rem",
+            "space-md": "1rem",
+            "space-xl": "2.5rem",
+            "space-sm": "0.5rem",
+            "gutter": "1.5rem",
+            "space-lg": "1.5rem",
+            "margin": "3rem",
+            "gutter-mobile": "1rem"
+          },
+          "fontFamily": {
+            "label-code": ["JetBrains Mono"],
+            "caption": ["Inter"],
+            "headline-md": ["Space Grotesk"],
+            "body-md": ["Inter"],
+            "headline-lg-mobile": ["Space Grotesk"],
+            "display-xl-mobile": ["Space Grotesk"],
+            "display-xl": ["Space Grotesk"],
+            "body-sm": ["Inter"],
+            "headline-lg": ["Space Grotesk"],
+            "headline-sm": ["Space Grotesk"],
+            "body-lg": ["Inter"],
+            "label-badge": ["JetBrains Mono"]
+          },
+          "fontSize": {
+            "label-code": ["13px", {"lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "500"}],
+            "caption": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "400"}],
+            "headline-md": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+            "body-md": ["15px", {"lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+            "display-xl-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+            "display-xl": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "body-sm": ["13px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+            "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+            "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600"}],
+            "body-lg": ["18px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "label-badge": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600"}]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .blueprint-grid {
+      background-size: 24px 24px;
+      background-image: 
+        linear-gradient(to right, #E2E8F0 1px, transparent 1px),
+        linear-gradient(to bottom, #E2E8F0 1px, transparent 1px);
+    }
+    .blueprint-grid-dense {
+      background-size: 12px 12px;
+      background-image: 
+        linear-gradient(to right, #EEF2F6 1px, transparent 1px),
+        linear-gradient(to bottom, #EEF2F6 1px, transparent 1px);
+    }
+  </style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Organization", "name": "Inovex", "url": "https://inovexengineers.github.io/Inovex-Website/", "email": "lankenilesh4@gmail.com", "sameAs": ["https://www.instagram.com/inovexengineering/?utm_source=qr&xtok=MTZkeXA3cTh3a3B4eQ=="], "description": "Create professional engineering and architectural portfolios with Inovex CAD presentation templates. Explore editable portfolio layouts, technical drawing sheets and presentation kits."}
+</script>
+</head>
+<body class="bg-drafting-paper text-ink-primary font-body-md antialiased selection:bg-surface-variant selection:text-primary">
+<header class="sticky top-0 z-50 bg-surface-card/90 backdrop-blur-md border-b border-hairline transition-all">
+<div class="max-w-[1280px] mx-auto h-[72px] px-gutter-mobile md:px-margin flex items-center justify-between">
+<!-- Brand Logo & Coordinate Tag -->
+<a class="flex items-center gap-3 group" href="index.html">
+<div class="w-8 h-8 rounded-lg bg-ink-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-lg" data-icon="architecture">architecture</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-ink-primary tracking-tight">Inovex</span>
+<span class="font-label-badge text-label-badge bg-badge-cyan-tint text-badge-cyan-text px-1.5 py-0.5 rounded border border-hairline">CAD:KIT</span>
+</div>
+<span class="font-label-code text-[10px] text-ink-muted leading-tight">ENGINEERING PORTFOLIO KITS</span>
+</div>
+</a>
+<!-- Mandatory Navigation Tabs and Primary Conversion CTA -->
+<div class="flex items-center gap-4 min-w-0">
+<nav aria-label="Main navigation" class="flex items-center gap-2 md:gap-4 text-xs md:text-sm font-semibold text-ink-muted overflow-x-auto whitespace-nowrap max-w-full">
+<a aria-current="page" class="hover:text-primary transition-colors text-primary border-b-2 border-primary pb-1" href="index.html">Home</a>
+<a class="hover:text-primary transition-colors" href="about.html">About Us</a>
+<a class="hover:text-primary transition-colors" href="products.html#pricing-packs">Products / Services</a>
+<a class="hover:text-primary transition-colors" href="resources.html#resources">Blog / Resources</a>
+<a class="hover:text-primary transition-colors" href="contact.html#contact-us">Contact Us</a>
+</nav>
+<a class="px-4 py-2.5 rounded-lg bg-accent-orange-bright hover:bg-secondary-container text-on-primary font-headline-sm text-sm font-semibold tracking-tight shadow-md hover:shadow-lg transition-all duration-150 active:scale-95 flex items-center gap-1.5" data-tab="products" href="#pricing-packs">
+<span>Get the Kit</span>
+<span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Educational Purpose Notice Bar -->
+<div class="bg-surface-container-high border-t border-b border-hairline py-1 px-4 text-center">
+<p class="font-label-code text-caption text-ink-muted font-medium tracking-wider uppercase">
+        This is for educational purposes only
+      </p>
+</div>
+</header>
+<main>
+<section class="relative blueprint-grid border-b border-hairline pt-12 md:pt-20 pb-16 md:pb-24 overflow-hidden" id="home">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin relative z-10">
+<!-- Header Badge -->
+<div class="flex justify-center mb-6">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-badge-cyan-tint border border-hairline">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-badge text-label-badge text-badge-cyan-text">ENGINEERING &amp; ARCHITECTURAL DRAFTING SPEC v2.6</span>
+</div>
+</div>
+<!-- Headline & Subheadline -->
+<div class="text-center max-w-3xl mx-auto mb-10">
+<h1 class="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl font-bold text-ink-primary tracking-tight mb-4">
+            Present Your CAD Work Like a Pro
+          </h1>
+<p class="font-body-lg text-body-lg text-ink-muted leading-relaxed">
+            Ready-to-use architectural and engineering presentation templates designed for AutoCAD, SolidWorks, Revit, and Fusion 360 creators.
+          </p>
+<!-- Buttons Group -->
+<div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-accent-orange-bright hover:bg-secondary-container text-on-primary font-headline-sm text-base font-semibold shadow-md hover:shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2" href="products.html#pricing-packs">
+<span>Choose Your Pack</span>
+<span class="material-symbols-outlined text-lg" data-icon="shopping_cart">shopping_cart</span>
+</a>
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-lg bg-surface-card border border-hairline hover:border-primary-container text-ink-primary hover:text-primary-container font-headline-sm text-base font-medium transition-all flex items-center justify-center gap-2" href="#whats-inside">
+<span>See what's inside</span>
+<span class="material-symbols-outlined text-lg" data-icon="expand_more">expand_more</span>
+</a>
+</div>
+<!-- Trust Checkmarks -->
+<div class="mt-8 pt-6 border-t border-hairline/60 flex flex-wrap items-center justify-center gap-6 text-ink-secondary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-lg" data-icon="check_circle">check_circle</span>
+<span class="font-body-sm text-body-sm font-medium">Instant digital download</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-lg" data-icon="check_circle">check_circle</span>
+<span class="font-body-sm text-body-sm font-medium">Editable templates</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-lg" data-icon="check_circle">check_circle</span>
+<span class="font-body-sm text-body-sm font-medium">7-day money-back guarantee</span>
+</div>
+</div>
+</div>
+<!-- CAD Viewport Mockup Frame -->
+<div class="relative max-w-5xl mx-auto rounded-xl border border-hairline bg-surface-card shadow-xl overflow-hidden">
+<!-- Viewport Header Strip -->
+<div class="bg-surface-container-high border-b border-hairline px-4 py-2.5 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="flex gap-1.5">
+<div class="w-2.5 h-2.5 rounded-full bg-outline-variant"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-outline-variant"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-outline-variant"></div>
+</div>
+<span class="font-label-code text-caption text-ink-muted ml-3">SHEET: DWG_A104_PORTFOLIO_LAYOUT.DXF</span>
+</div>
+<div class="hidden sm:flex items-center gap-3">
+<span class="font-label-code text-caption text-badge-cyan-text bg-badge-cyan-tint px-2 py-0.5 rounded border border-hairline">SCALE 1:20 (METRIC)</span>
+<span class="font-label-code text-caption text-ink-muted">GRID SNAP: 1.0mm</span>
+</div>
+</div>
+<!-- Mockup Viewport Canvas -->
+<div class="relative bg-drafting-paper p-4 md:p-6 blueprint-grid-dense">
+<div class="relative border border-hairline bg-surface-card rounded-lg p-3 md:p-6 shadow-sm overflow-hidden">
+<!-- CAD Portfolio Sheet Content Image -->
+<div class="relative aspect-[16/9] w-full rounded overflow-hidden border border-hairline">
+<img class="w-full h-full object-cover" data-alt="A clean, highly technical architectural and engineering CAD presentation sheet displayed on high-contrast crisp drafting paper. The layout features axonometric exploded mechanical assemblies, dimensional cross-section annotations, ISO title blocks, and orthographic wireframe projections. Bright light mode, crisp dark navy vector linework, subtle cyan dimension callouts, and industrial precision styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDflr_mTseKvP9Y1q9cc1Khh2wasm1-fnNg3nQEzqemydaQ9UJcNDQDJDWiFWnxqQ3Lqv7V-83FrIqZMew96OPEqQvezhvmxFnVa-wtql2EnKOUmDw7hy5mRMmGdeK_2ZdMfb627ly7I6NWURDQdLoaZy03Auo0N_7KscXr5mL9Z_c0Ymo9nyrJjLWTuqyeG1zs2CFUhQU2s9dyyuMkS7RqXRQ-fETPyek-yIkEgCVv1G47PplT3fml"/>
+<!-- Floating Drafting Annotation Callouts -->
+<div class="absolute top-4 left-4 hidden sm:flex items-center gap-2 bg-surface-card/95 backdrop-blur border border-primary-container px-3 py-1.5 rounded shadow">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="polyline">polyline</span>
+<span class="font-label-code text-caption font-semibold text-primary">SEC 02 // TOLERANCE ±0.02mm</span>
+</div>
+<div class="absolute bottom-4 right-4 hidden sm:flex items-center gap-3 bg-surface-card/95 backdrop-blur border border-hairline px-3 py-2 rounded shadow">
+<div class="text-right">
+<p class="font-label-code text-[11px] font-semibold text-ink-primary">ANSI D-SIZE 22x34"</p>
+<p class="font-label-code text-[10px] text-ink-muted">REV 04 APPROVED</p>
+</div>
+<div class="w-6 h-6 rounded bg-badge-cyan-tint flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-sm" data-icon="verified">verified</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-surface-bright border-b border-hairline">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="max-w-2xl mx-auto text-center mb-16">
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+            TECHNICAL DISCONNECT // SECTION 01
+          </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight mb-4">
+            Great CAD work, poor presentation.
+          </h2>
+<p class="font-body-md text-body-md text-ink-muted leading-relaxed">
+            Hiring managers, design leads, and enterprise clients spend less than 90 seconds scanning portfolio sheets. Without cohesive visual structure, even the most meticulous 3D modeling and mechanical design get lost in visual noise.
+          </p>
+</div>
+<!-- 3 Pain Point Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 md:p-8 rounded-lg transition-all duration-200 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="grid_off">grid_off</span>
+</div>
+<div class="font-label-code text-caption text-ink-muted mb-1">FAULT CODE // 01</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">
+              Inconsistent Portfolio
+            </h3>
+<p class="font-body-sm text-body-sm text-ink-muted leading-relaxed">
+              Disjointed sheet styles and mixed scales confuse reviewers and dilute project impact across multi-page reviews.
+            </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 md:p-8 rounded-lg transition-all duration-200 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="schedule">schedule</span>
+</div>
+<div class="font-label-code text-caption text-ink-muted mb-1">FAULT CODE // 02</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">
+              Hours Lost on Layout
+            </h3>
+<p class="font-body-sm text-body-sm text-ink-muted leading-relaxed">
+              Spending entire weekends aligning margins and recreating title blocks instead of refining designs and engineering prototypes.
+            </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 md:p-8 rounded-lg transition-all duration-200 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="visibility_off">visibility_off</span>
+</div>
+<div class="font-label-code text-caption text-ink-muted mb-1">FAULT CODE // 03</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">
+              Work Doesn't Stand Out
+            </h3>
+<p class="font-body-sm text-body-sm text-ink-muted leading-relaxed">
+              Standard software exports look flat and fail to showcase true engineering rigor, manufacturing insight, and material depth.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-drafting-paper border-b border-hairline blueprint-grid" id="whats-inside">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="max-w-2xl mx-auto text-center mb-16">
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+            TECHNICAL DELIVERABLES // SPECIFICATION
+          </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight mb-4">
+            What's Inside the Kit
+          </h2>
+<p class="font-body-md text-body-md text-ink-muted leading-relaxed">
+            Every file is engineered for friction-free editing, rapid sheet composition, and calibrated typographic precision.
+          </p>
+</div>
+<!-- 6 Structured Icon Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- 1 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="dashboard_customize">dashboard_customize</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 01</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Editable Templates</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Fully modular grids, typography hierarchies, and customizable layer styles adapted to global drafting standards.
+            </p>
+</div>
+<!-- 2 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="drag_indicator">drag_indicator</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 02</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Drag-and-Drop Layouts</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Pre-formatted image frames for renders, wireframes, and orthographic projections with zero alignment drift.
+            </p>
+</div>
+<!-- 3 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="badge">badge</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 03</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Professional Title Blocks</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Standard technical title block styles with automatic metadata fields for drawing revisions, scale, and author data.
+            </p>
+</div>
+<!-- 4 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="photo_library">photo_library</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 04</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Render &amp; Drawing Showcase Pages</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Optimized sheets for wireframe-to-render comparisons, sectional elevations, and tactile product close-ups.
+            </p>
+</div>
+<!-- 5 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="print">print</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 05</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Print &amp; Digital Ready</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              CMYK print settings for physical jury review alongside screen-optimized digital PDFs with hyperlinked navigation.
+            </p>
+</div>
+<!-- 6 -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg shadow-sm transition-all">
+<div class="flex items-center justify-between mb-4">
+<div class="w-10 h-10 rounded bg-badge-cyan-tint text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl" data-icon="update">update</span>
+</div>
+<span class="font-label-code text-caption text-ink-muted">MOD: 06</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Lifetime Updates</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Immediate access to new layout sheets, software export presets, and fresh architectural components.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-surface-bright border-b border-hairline overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+              GALLERY VIEW // ARCHIVE
+            </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight">
+              Template Previews
+            </h2>
+</div>
+<p class="font-label-code text-caption text-ink-muted mt-2 md:mt-0">
+            SHOWCASE ARCHIVE: 5 CALIBRATED SHEETS (A3 / TABLOID EXTRACTS)
+          </p>
+</div>
+<!-- Horizontal Gallery Strip -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+<!-- Sheet 01 -->
+<div class="bg-surface-card rounded-lg border border-hairline hover:border-primary-container transition-all overflow-hidden group shadow-sm flex flex-col">
+<div class="relative aspect-[4/3] bg-drafting-paper overflow-hidden border-b border-hairline">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An architectural presentation sheet showing a clean site master plan and elevation drawing. Precise black and navy CAD vector outlines on bright white paper with cyan dimension callout markers and minimal architectural topography lines. High aesthetic clarity, pristine technical drafting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBydmOu4UyccvppLNawdA-aEAOs7AmMVxmyGCAiCU4Pt97oqGTlFAHdkZVuKCjKvcT_x8Oo6n3bWN8_KXFnoctLrdyQS-O77Oxs439VXhGfnoxIUKxsPQXcbAypMmM_tiQv7VrS0rSAAGH8mXO4ILLZCyd1jOH3AVJ5CfhUIk2DMVh3BXQalfASva_NmYnfE7XIG8jk_UdzA6cvAW40kqAjAIWzvRt-gpmrteEiesBv0WaMpKCSqC9c"/>
+<span class="absolute top-2 left-2 bg-surface-card/90 font-label-badge text-[10px] text-primary px-1.5 py-0.5 rounded border border-hairline">DWG-01</span>
+</div>
+<div class="p-3 bg-surface-card flex-1 flex flex-col justify-between">
+<span class="font-label-code text-caption font-semibold text-ink-primary line-clamp-1">Sheet 01 // Master Plan &amp; Elevation</span>
+<span class="font-label-code text-[10px] text-ink-muted mt-1">REF: ARCH-EXT-101</span>
+</div>
+</div>
+<!-- Sheet 02 -->
+<div class="bg-surface-card rounded-lg border border-hairline hover:border-primary-container transition-all overflow-hidden group shadow-sm flex flex-col">
+<div class="relative aspect-[4/3] bg-drafting-paper overflow-hidden border-b border-hairline">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A mechanical engineering drawing sheet showing an exploded assembly view with bill of materials. Detailed hardware components, ball bearings, gears, and fasteners hovering along an axial projection line with numbered balloon callouts. Bright paper light theme, crisp vector linework." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYZD8pRJvvoIOIs_s06r3URwURWxUYTItl7U99T7OcEtfTQo71NLwDZvetBjz-tHdD7SixoEjSTC0KmJ4aaaHaYi3QFXsTDbeJojpsDozXEJrgYti_juVm23A87uoWK5ZsoJZ0jsjQnYNryT8dNoi6rozt5HjtFDGjmSeWDQwnEc7k9LXXqzFZ05EpeecbRdgEEHSGf4pYE5sCKiHuJg3jzOs3VTs6oO9MSBSv2YPMAadxoM5BnJz9"/>
+<span class="absolute top-2 left-2 bg-surface-card/90 font-label-badge text-[10px] text-primary px-1.5 py-0.5 rounded border border-hairline">DWG-02</span>
+</div>
+<div class="p-3 bg-surface-card flex-1 flex flex-col justify-between">
+<span class="font-label-code text-caption font-semibold text-ink-primary line-clamp-1">Sheet 02 // Exploded Assembly &amp; BOM</span>
+<span class="font-label-code text-[10px] text-ink-muted mt-1">REF: MECH-ASM-204</span>
+</div>
+</div>
+<!-- Sheet 03 -->
+<div class="bg-surface-card rounded-lg border border-hairline hover:border-primary-container transition-all overflow-hidden group shadow-sm flex flex-col">
+<div class="relative aspect-[4/3] bg-drafting-paper overflow-hidden border-b border-hairline">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An industrial design technical drawing featuring cross-sectional details, wall thickness callouts, and GD&amp;T geometric tolerancing symbols. High precision drafting layout on off-white substrate with hairline measurement guidelines and dark navy outlines." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCIrtbt2LciHjpjCRNC5NXF5KWGKE9oT0tl5JjT_g03K4glrK_mbVgc7bDBKO3k7wf2eAUMEMxqLRVjYiKzxNLanNz67Rr2D7rgirYlJoHK7GPZQOnJ37yCUXKQJA--NiLkiapl1xyG2Px-dQ4VYvLUebwB6ydKvsWfHMkuNA0Capq5LpNvoA2JCcb3Qivu7eI093uhwlhArOaDTbLjtzvO7qpmaknhPEBUk2qJWCHEIjqnxyEpkqM"/>
+<span class="absolute top-2 left-2 bg-surface-card/90 font-label-badge text-[10px] text-primary px-1.5 py-0.5 rounded border border-hairline">DWG-03</span>
+</div>
+<div class="p-3 bg-surface-card flex-1 flex flex-col justify-between">
+<span class="font-label-code text-caption font-semibold text-ink-primary line-clamp-1">Sheet 03 // Sectional Detail &amp; Callouts</span>
+<span class="font-label-code text-[10px] text-ink-muted mt-1">REF: SEC-TOL-308</span>
+</div>
+</div>
+<!-- Sheet 04 -->
+<div class="bg-surface-card rounded-lg border border-hairline hover:border-primary-container transition-all overflow-hidden group shadow-sm flex flex-col">
+<div class="relative aspect-[4/3] bg-drafting-paper overflow-hidden border-b border-hairline">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A product design CMF presentation sheet with color, material, and finish chips alongside human ergonomics scale studies. Anodized aluminum textures, polycarbonate swatches, and hand-grip interaction diagram vectors arranged on a crisp architectural grid." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrorGo2vbv2S7VCFMmWtTXD1CuNqvHGxZvCZrvtX5BZv6wukO_KCA1aAARNMtCmFMhoGU5ZWd9PxGiMwzvwubEEChOzXYitltVQgkzmuNGFvixBRBr92hXqRe8SIRfkV-H0a8mTJBjVgsNgJK4ih4B1SJv8RfkueUIp_andapH49BglHzBxV2F2LX1wNJu3vWHfFzFtAHnjgp1yZ_F1sz0QDifw3Kd5HOy_DoIg12QiR6C1Bo252L2"/>
+<span class="absolute top-2 left-2 bg-surface-card/90 font-label-badge text-[10px] text-primary px-1.5 py-0.5 rounded border border-hairline">DWG-04</span>
+</div>
+<div class="p-3 bg-surface-card flex-1 flex flex-col justify-between">
+<span class="font-label-code text-caption font-semibold text-ink-primary line-clamp-1">Sheet 04 // CMF &amp; Ergonomic Studies</span>
+<span class="font-label-code text-[10px] text-ink-muted mt-1">REF: DES-CMF-412</span>
+</div>
+</div>
+<!-- Sheet 05 -->
+<div class="bg-surface-card rounded-lg border border-hairline hover:border-primary-container transition-all overflow-hidden group shadow-sm flex flex-col">
+<div class="relative aspect-[4/3] bg-drafting-paper overflow-hidden border-b border-hairline">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A high-end 3D CAD render presentation showcase page displaying a sleek consumer electronic product next to wireframe mesh models and lighting reflections. High key daylight aesthetic, pristine minimal framing, and sharp vector title blocks." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSwzqrkoIaffLqJbJSjfWR8r66ZG7QuO8RLNVCol-hsH4X_tWlGpx3RQf15N6ARi1X4LmAA0GK1TudRWf1d3mMiJJwPSXRc2m_7Fg0VJ0vTbZbg4i6RoaxroJnD94Z1IkPUN7yKA21JHmd9H8LfxafjM_DiiNrOEysguHiLnmK_lPJxNmbaDVZaO4CAa0YfgXzTtrgkoUErZUQ-nvkwmbCmMQRnOK8Fr8Yu_YNF10nM-snantCu6UL"/>
+<span class="absolute top-2 left-2 bg-surface-card/90 font-label-badge text-[10px] text-primary px-1.5 py-0.5 rounded border border-hairline">DWG-05</span>
+</div>
+<div class="p-3 bg-surface-card flex-1 flex flex-col justify-between">
+<span class="font-label-code text-caption font-semibold text-ink-primary line-clamp-1">Sheet 05 // Render Showcase</span>
+<span class="font-label-code text-[10px] text-ink-muted mt-1">REF: VIS-RND-519</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-drafting-paper border-b border-hairline">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="max-w-2xl mx-auto text-center mb-16">
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+            TARGET DISCIPLINES // DOMAINS
+          </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight mb-4">
+            Built for Technical Creators
+          </h2>
+<p class="font-body-md text-body-md text-ink-muted leading-relaxed">
+            Tailored visual structures matching the rigor and documentation standards of your specific discipline.
+          </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Architects -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg transition-all shadow-sm">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-badge text-label-badge bg-badge-cyan-tint text-badge-cyan-text px-2 py-0.5 rounded">ARCH</span>
+<span class="material-symbols-outlined text-primary text-xl" data-icon="domain">domain</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Architects</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              BIM sheets, schematic proposals, and clean urban planning title blocks configured for architectural juries.
+            </p>
+</div>
+<!-- Mechanical Engineers -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg transition-all shadow-sm">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-badge text-label-badge bg-badge-cyan-tint text-badge-cyan-text px-2 py-0.5 rounded">MECH</span>
+<span class="material-symbols-outlined text-primary text-xl" data-icon="settings">settings</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Mechanical Engineers</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              GD&amp;T callouts, exploded assembly diagrams, and kinematic mechanism views with Bill of Materials tables.
+            </p>
+</div>
+<!-- Product Designers -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg transition-all shadow-sm">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-badge text-label-badge bg-badge-cyan-tint text-badge-cyan-text px-2 py-0.5 rounded">DES</span>
+<span class="material-symbols-outlined text-primary text-xl" data-icon="devices">devices</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">Product Designers</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              DFM breakdowns, CMF material boards, and ergonomic prototype case studies that highlight manufacturing intent.
+            </p>
+</div>
+<!-- CAD Students -->
+<div class="bg-surface-card border border-hairline hover:border-primary-container p-6 rounded-lg transition-all shadow-sm">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-badge text-label-badge bg-badge-cyan-tint text-badge-cyan-text px-2 py-0.5 rounded">EDU</span>
+<span class="material-symbols-outlined text-primary text-xl" data-icon="school">school</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-semibold text-ink-primary mb-2">CAD Students</h3>
+<p class="font-body-sm text-body-sm text-ink-muted">
+              Internship applications, capstone projects, and academic portfolio submissions ready to impress hiring panels.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-surface-bright border-b border-hairline">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="max-w-2xl mx-auto text-center mb-16">
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+            SAMPLE INDUSTRY REVIEWS
+          </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight mb-4">
+            Example Customer Feedback
+          </h2>
+<p class="font-body-md text-body-md text-ink-muted leading-relaxed">
+            See how designers and engineers accelerated their career transitions with structured presentations.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Testimonial 1 -->
+<div class="bg-surface-card border border-hairline p-6 rounded-lg shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-amber-500 gap-0.5">
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-ink-primary italic">
+                "Cut my portfolio preparation time from two weeks down to two evenings. Landed interviews at two leading firms within a month."
+              </p>
+</div>
+<div class="pt-6 border-t border-hairline flex items-center gap-3 mt-6">
+<div class="w-10 h-10 rounded-full bg-surface-container-high border border-hairline flex items-center justify-center font-headline-sm text-sm font-bold text-primary">
+                RS
+              </div>
+<div>
+<p class="font-headline-sm text-sm font-semibold text-ink-primary">Rohan Sharma</p>
+<p class="font-label-code text-caption text-ink-muted">Architectural Designer</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-card border border-hairline p-6 rounded-lg shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-amber-500 gap-0.5">
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-ink-primary italic">
+                "The exploded assembly and GD&amp;T sheet layouts gave my hardware engineering projects the professional polish they were missing."
+              </p>
+</div>
+<div class="pt-6 border-t border-hairline flex items-center gap-3 mt-6">
+<div class="w-10 h-10 rounded-full bg-surface-container-high border border-hairline flex items-center justify-center font-headline-sm text-sm font-bold text-primary">
+                PD
+              </div>
+<div>
+<p class="font-headline-sm text-sm font-semibold text-ink-primary">Priya Deshmukh</p>
+<p class="font-label-code text-caption text-ink-muted">Mechanical Systems Engineer</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-card border border-hairline p-6 rounded-lg shadow-sm flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-amber-500 gap-0.5">
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-ink-primary italic">
+                "The CMF and ergonomic study templates are exceptionally well-crafted. Clean typography and perfect technical grid structure."
+              </p>
+</div>
+<div class="pt-6 border-t border-hairline flex items-center gap-3 mt-6">
+<div class="w-10 h-10 rounded-full bg-surface-container-high border border-hairline flex items-center justify-center font-headline-sm text-sm font-bold text-primary">
+                AP
+              </div>
+<div>
+<p class="font-headline-sm text-sm font-semibold text-ink-primary">Arjun Patel</p>
+<p class="font-label-code text-caption text-ink-muted">Senior Industrial Designer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-drafting-paper border-b border-hairline blueprint-grid">
+<div class="max-w-[800px] mx-auto px-gutter-mobile md:px-margin">
+<div class="text-center mb-16">
+<div class="inline-block font-label-badge text-label-badge text-primary-container bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-3">
+            DOCUMENTATION &amp; PROTOCOLS
+          </div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-ink-primary tracking-tight mb-4">
+            Frequently Asked Questions
+          </h2>
+<p class="font-body-md text-body-md text-ink-muted">
+            Technical specs, file compatibility, and license conditions.
+          </p>
+</div>
+<!-- 5 Collapsible Questions -->
+<div class="space-y-4">
+<!-- Q1 -->
+<details class="group bg-surface-card border border-hairline rounded-lg p-5 open:border-primary-container transition-all" open="">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-base font-semibold text-ink-primary">
+<span>Which CAD software programs are supported?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 font-body-sm text-body-sm text-ink-muted border-t border-hairline pt-3 leading-relaxed">
+              Works seamlessly with exports from AutoCAD, SolidWorks, Revit, Fusion 360, Rhino 3D, and Autodesk Inventor. You simply export your standard vector lines or raster renders into our layout templates.
+            </p>
+</details>
+<!-- Q2 -->
+<details class="group bg-surface-card border border-hairline rounded-lg p-5 open:border-primary-container transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-base font-semibold text-ink-primary">
+<span>What file formats are included in the download?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 font-body-sm text-body-sm text-ink-muted border-t border-hairline pt-3 leading-relaxed">
+              Templates are delivered in Microsoft PowerPoint (.PPTX), Interactive and Print-ready PDF, Adobe InDesign (.INDD), and Figma (.FIG) formats to fit your preferred workflow.
+            </p>
+</details>
+<!-- Q3 -->
+<details class="group bg-surface-card border border-hairline rounded-lg p-5 open:border-primary-container transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-base font-semibold text-ink-primary">
+<span>How does file delivery work?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 font-body-sm text-body-sm text-ink-muted border-t border-hairline pt-3 leading-relaxed">
+              You receive an instant digital download link via email immediately following purchase, complete with direct access to your asset archive and installation instructions.
+            </p>
+</details>
+<!-- Q4 -->
+<details class="group bg-surface-card border border-hairline rounded-lg p-5 open:border-primary-container transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-base font-semibold text-ink-primary">
+<span>What is your refund policy?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 font-body-sm text-body-sm text-ink-muted border-t border-hairline pt-3 leading-relaxed">
+              We offer a straightforward 7-day money-back guarantee with a hassle-free refund process. If the kit does not fit your drafting requirements, email us for a quick full refund.
+            </p>
+</details>
+<!-- Q5 -->
+<details class="group bg-surface-card border border-hairline rounded-lg p-5 open:border-primary-container transition-all">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-base font-semibold text-ink-primary">
+<span>What are the license and usage terms?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<p class="mt-4 font-body-sm text-body-sm text-ink-muted border-t border-hairline pt-3 leading-relaxed">
+              The standard license covers personal portfolios, academic capstone submissions, and client project presentations. You may present and distribute completed sheets without limits.
+            </p>
+</details>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24 bg-surface-bright border-b border-hairline relative overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin text-center relative z-10">
+<div class="max-w-2xl mx-auto">
+<div class="inline-block font-label-badge text-label-badge text-badge-cyan-text bg-badge-cyan-tint px-3 py-1 rounded border border-hairline mb-4">
+            FINAL CALL // DEPLOY SPEC
+          </div>
+<h2 class="font-headline-lg-mobile md:font-display-xl text-headline-lg-mobile md:text-display-xl font-bold text-ink-primary tracking-tight mb-4">
+            Ready to upgrade your portfolio?
+          </h2>
+<p class="font-body-lg text-body-lg text-ink-muted mb-8 leading-relaxed">
+            Join fellow designers and engineers presenting their work with technical confidence.
+          </p>
+<a class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-accent-orange-bright hover:bg-secondary-container text-on-primary font-headline-sm text-base font-semibold shadow-lg hover:shadow-xl transition-all active:scale-95" href="products.html#pricing-packs">
+<span>Choose Your Pack</span>
+<span class="material-symbols-outlined text-lg" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-surface-card border-t border-hairline pt-12 pb-8">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile md:px-margin">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-hairline">
+<!-- Brand Info -->
+<div class="md:col-span-2 space-y-4">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded bg-ink-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-base" data-icon="architecture">architecture</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-ink-primary tracking-tight">Inovex</span>
+<span class="font-label-code text-caption text-ink-muted">// CAD PORTFOLIO KIT</span>
+</div>
+<p class="font-body-sm text-body-sm text-ink-muted max-w-sm">
+            The premier CAD &amp; architectural presentation kit for engineers, designers, and students worldwide.
+          </p>
+</div>
+<!-- Contact Support -->
+<div>
+<h4 class="font-label-code text-caption font-bold text-ink-primary uppercase tracking-wider mb-3">Support</h4>
+<a class="font-body-sm text-body-sm text-ink-muted hover:text-primary transition-colors flex items-center gap-1.5" href="mailto:lankenilesh4@gmail.com"><span class="material-symbols-outlined text-base" data-icon="mail">mail</span><span>lankenilesh4@gmail.com</span></a>
+</div>
+<!-- Social Connections -->
+<div>
+<h4 class="font-label-code text-caption font-bold text-ink-primary uppercase tracking-wider mb-3">Channels</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-ink-muted"><li><a class="hover:text-primary transition-colors flex items-center gap-2" href="https://www.instagram.com/inovexengineering/?utm_source=qr&amp;xtok=MTZkeXA3cTh3a3B4eQ==" rel="noopener noreferrer" target="_blank"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg><span>Instagram</span></a></li></ul>
+</div>
+</div>
+<!-- Compliance Notice & Copyright -->
+<div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+<p class="font-label-code text-caption text-ink-muted uppercase">
+          This is for educational purposes only
+        </p>
+<p class="font-body-sm text-caption text-ink-muted">
+          © 2026 Inovex. All rights reserved.
+        </p>
+</div>
+</div>
+</footer>
+</body>
+</html>
